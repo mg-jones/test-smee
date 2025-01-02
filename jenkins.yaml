@@ -1,0 +1,6 @@
+- job:
+    name: test-smee
+    project-type: pipeline
+    sandbox: true
+    pipeline-scm:
+        script-path: Jenkinsfile
